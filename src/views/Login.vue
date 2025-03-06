@@ -13,22 +13,11 @@ const login = async () => {
         const response = await axios.post('http://localhost:3000/user/login', {
             email: email.value,
             password: password.value
-<<<<<<< HEAD
         });
 		console.log(response.data);
         console.log("ok");
         localStorage.setItem('token', response.data.token);
         localStorage.setItem('role', response.data.currentUser.role);
-=======
-        },
-		{
-			withCredentials: true
-		}
-	);
-        console.log(response.data);
-        console.log("ok");
-        localStorage.setItem('token', response.data.token);
->>>>>>> 41c485204f5f0565c69f5eb666d79341cac3219e
 
     } catch (error) {
         console.error(error);

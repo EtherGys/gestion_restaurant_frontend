@@ -15,10 +15,7 @@
     "pinia": "^3.0.1",
     "vue": "^3.5.13",
     "vue-cal": "^4.10.2",
-<<<<<<< HEAD
     "vue-moment": "^4.1.0",
-=======
->>>>>>> 41c485204f5f0565c69f5eb666d79341cac3219e
     "vue-router": "^4.5.0"
   },
   "devDependencies": {

@@ -1,14 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Login from '../views/Login.vue'
 import Register from '@/views/Register.vue'
-<<<<<<< HEAD
 import Reservation from '@/views/Reservation.vue'
 import Calendar from '@/views/Calendar.vue'
 import UserReservation from '@/views/UserReservation.vue'
-=======
-import AddAppointment from '@/views/AddAppointment.vue'
-import ListAppointment from '@/views/ListAppointment.vue'
->>>>>>> 41c485204f5f0565c69f5eb666d79341cac3219e
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
